@@ -1,16 +1,10 @@
-# This is a sample Python script.
+# this is to help Yoonbin Cho to solve her problem
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+def q_1():
+    nest_list = [12, 13, [14, 15], [16, [17, 18, ["weather change!"]], 19, 20], 21, 22]
+    word = nest_list[3][1][2][0]
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
+    return word
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+print(q_1())
