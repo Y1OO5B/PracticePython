@@ -106,4 +106,7 @@ def q_10(lst):
     return ans10
 
 
-print(q_10([1,2,3,4,5]))
+# print(q_10([1,2,3,4,5]))
+
+st = "hello"
+print(st)
