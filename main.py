@@ -108,5 +108,41 @@ def q_10(lst):
 
 # print(q_10([1,2,3,4,5]))
 
-st = "hello"
-print(st)
+# st1 = [1, 2, 3]
+# st2 = st1
+# print(st2)
+# st1.append(4)
+# print(st2)
+# st3 = st1[:]
+# st1.append(5)
+# print(st3)
+# st4 = st1.copy()
+# st1.append(6)
+# print(st4)
+
+# a = ["h", "e", "l", "l", "o"]
+# for i in range(0, a.count("l")):
+#     a.remove("l")
+#
+# print(a)
+
+# letters_unused = []
+# for i in range(ord('a'), ord('z')+1):
+#     letters_unused.append(chr(i))
+#
+# print(letters_unused)
+# letters_guessed = ['a', 'b', 'y', 'z']
+#
+# while True:
+#     dupli = False
+#     letter = input("Input a letter you guess: ")
+#     letter.lower()
+#     for i in letters_guessed:
+#         if i == letter:
+#             dupli = True
+#             print("It is already used!")
+#             break
+#     if not dupli:
+#         break
+
+print(7 % 2)
